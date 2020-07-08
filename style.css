@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');   
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1rem;
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+
+h1, h2, h3 {
+  color: hsl(210, 10%, 33%);
+  padding-bottom: 1.1rem;
+}
+
+.bg-img {
+  width: 40%;
+  height: 40%;
+} 
+
+.list ul li {
+  padding: 1rem;
+}
+
+.btn {
+  width: 100%;
+  text-decoration: none;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.2rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+.btn-green {
+  box-shadow: 0 5px 10px hsl(171, 66%, 44%);
+}
+.btn-blue{
+  box-shadow: 0 5px 10px hsl(233, 100%, 69%);
+  background-color: hsl(233, 100%, 69%)
+  ;
+}
+
+.container {
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.first {
+  width: 60%;
+  text-align: center;
+  margin: 4rem auto 0;
+  padding: 1.21rem;
+}
+
+.history {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.track {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 1.21rem;
+}
+
+.comp {
+  display: flex;
+}
+
+.comp .large-img {
+  width: 85%;
+  height: 400px;
+  transform: translateX(-40%);
+}
+
+.comp .list {
+  width: 38%;
+  margin-left: -250px;
+}
+
+.clip {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.clip-img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+.flow {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.create {
+  display: flex;
+  text-align: center;
+}
+
+.create > div {
+  padding: 2rem;
+}
+
+.plis {
+  width: 300px;
+}
+
+.company > img {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.clipboard {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.first-button {
+  margin-top: 3rem;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.21rem;
+}
+
+footer {
+  background-color: hsl(201, 11%, 66%, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.last-img{
+  width: 50px;
+  height: 50px;
+}
+
+.footer-img > img {
+  padding: 0.3rem;
+}
+
+
+
+@media (max-width:700px) {
+  .container {
+    text-align: center;
+    max-width: 970px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bg-img {
+    width: 100%;
+    height:100%;
+  } 
+
+  .first {
+    width: 100%;
+  }
+
+  .track {
+    width: 100%;
+  }
+
+  .comp {
+    flex-direction: column;
+  }
+
+  .comp .large-img {
+    width: 100%;
+    transform: translateX(0);
+  }
+  
+  .comp .list {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+  }
+
+.clip {
+  width: 100%;
+}
+
+.flow {
+  width: 100%;
+}
+
+
+.create {
+  flex-direction: column;
+}
+
+.plis {
+  width: 100%;
+}
+
+.company > img {
+  display: block;
+  margin: auto;
+}
+
+.clipboard {
+  width: 100%;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.pad {
+  padding-bottom: 1rem; 
+}
+
+.last-img{
+padding-bottom: 1rem;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.btn-blue {
+  margin-top: 1rem;
+}
+}

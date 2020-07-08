@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');   
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 1rem;
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+.bg-img{
+  width: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list ul li {
+  padding: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.2rem;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.btn-blue{
+  background-color: hsl(233, 100%, 69%)
+  ;
+}
+
+.first {
+  width: 550px;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 1.21rem;
+}
+
+.history {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.track {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto;
+  padding: 1.21rem;
+}
+
+.comp {
+  display: flex;
+  margin-left: -205px;
+}
+
+.list {
+  width: 370px;
+  margin-left: 150px;
+}
+
+.clip {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.clip-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.flow {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.create {
+  display: flex;
+  text-align: center;
+}
+
+.create > div {
+  padding: 2rem;
+}
+
+.company > img {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.plis {
+  width: 300px;
+}
+
+.clipboard {
+  width: 65%;
+  text-align: center;
+  margin: 4rem auto 1rem;
+  padding: 1rem;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.21rem;
+}
+
+footer {
+  background-color: hsl(201, 11%, 66%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.last{
+  width: 50px;
+  height: 50px;
+}
+
+.footer-img > img {
+  padding: 0.3rem;
+}
+
+@media (max-width:700px) {
+  .container {
+    width: 80%;
+  }
+
+  .comp {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .comp > img {
+    width: 50%;
+  }
+}
+
+
